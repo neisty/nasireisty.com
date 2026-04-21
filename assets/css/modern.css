@@ -57,14 +57,21 @@ nav {
   font-size: 20px;
   color: var(--accent);
   letter-spacing: -0.3px;
-  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
+.nav-logo-text {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--accent);
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+
 .utk-logo-nav {
-  height: 56px;
+  height: 68px;
   width: auto;
   flex-shrink: 0;
   display: block;
