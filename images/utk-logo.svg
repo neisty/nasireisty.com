@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 390">
+
+  <!-- Orange square background -->
+  <rect x="150" y="0" width="200" height="200" fill="#FF8200"/>
+
+  <!--
+    White Power T
+    Crossbar: x 170-330, y 20-80
+    Stem:     x 228-272, y 80-185
+    Concave inner corners at (272,80) and (228,80)
+    Curved feet at bottom of stem
+  -->
+  <path d="
+    M 170,20
+    L 330,20
+    L 330,80
+    Q 272,80 272,108
+    L 272,163
+    C 272,178 283,185 283,185
+    L 217,185
+    C 217,185 228,178 228,163
+    L 228,108
+    Q 228,80 170,80
+    Z
+  " fill="white"/>
+
+  <!-- THE UNIVERSITY OF -->
+  <text
+    x="250" y="240"
+    text-anchor="middle"
+    font-family="Georgia, 'Palatino Linotype', Palatino, 'Book Antiqua', serif"
+    font-size="21"
+    font-weight="normal"
+    fill="#58595B"
+    letter-spacing="5"
+  >THE UNIVERSITY OF</text>
+
+  <!-- TENNESSEE -->
+  <text
+    x="250" y="302"
+    text-anchor="middle"
+    font-family="Georgia, 'Palatino Linotype', Palatino, 'Book Antiqua', serif"
+    font-size="60"
+    font-weight="normal"
+    fill="#58595B"
+    letter-spacing="4"
+  >TENNESSEE</text>
+
+  <!-- KNOXVILLE -->
+  <text
+    x="250" y="350"
+    text-anchor="middle"
+    font-family="Georgia, 'Palatino Linotype', Palatino, 'Book Antiqua', serif"
+    font-size="27"
+    font-weight="normal"
+    fill="#58595B"
+    letter-spacing="10"
+  >KNOXVILLE</text>
+
+</svg>

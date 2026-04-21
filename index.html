@@ -1,220 +1,356 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Nasir Eisty</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Nasir Eisty, Ph.D.</title>
+  <meta name="description" content="Assistant Professor at the University of Tennessee, Knoxville. Research in Software Engineering, Empirical SE, and Scientific Software." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/modern.css" />
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <!-- Navigation -->
+  <nav>
+    <a href="#hero" class="nav-logo">
+      <img src="images/utk-logo.png" class="utk-logo-nav" alt="University of Tennessee, Knoxville" />
+      <img src="SAIL.png" class="sail-logo-nav" alt="SAIL Lab" />
+      Nasir Eisty
+    </a>
+    <ul class="nav-links">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1>Nasir Eisty, Ph.D.</h1>
-						<p>Assistant Professor<br />
-						<a href="https://www.eecs.utk.edu" target="_blank">Department of Electrical Engineering & Computer Science</a><br/>	
-						<a href="https://www.utk.edu/" target="_blank">University of Tennessee, Knoxville</a><br/>
-					</header>
+  <!-- Hero -->
+  <section class="hero" id="hero" style="padding:0;">
+    <div class="hero-left">
+      <h1 class="hero-name fade-up d1">Nasir Eisty, Ph.D.</h1>
+      <p class="hero-subtitle fade-up d2">Assistant Professor
+         &nbsp;&middot;&nbsp; <a href="https://www.eecs.utk.edu" target="_blank">Min H. Kao Dept. of Electrical Engineering &amp; Computer Science</a></p>
+      <p class="hero-utk-text fade-up d3">The University of Tennessee, Knoxville</p>
+      <p class="hero-bio fade-up d5">
+        Researching AI-Driven Software Engineering with a focus on empirical methods, scientific and research software quality, quantum software engineering:
+        testing, peer code review, technical debt, security, metrics and sustainability.
+      </p>
+      <div class="hero-actions fade-up d5">
+        <a href="mailto:neisty@utk.edu" class="btn btn-primary">neisty@utk.edu</a>
+        <a href="https://calendly.com/nasireisty" class="btn btn-outline" target="_blank">Schedule a Meeting</a>
+      </div>
+      <div class="hero-welcome fade-up d5">
+        <div class="welcome-dot"></div>
+        <div class="welcome-body">
+          <span class="welcome-title">Open to Collaborators</span>
+          <span class="welcome-text">Welcoming Fulbright scholars, visiting researchers, postdocs &amp; international collaborators worldwide.</span>
+        </div>
+      </div>
+      <div class="hero-social fade-up d5">
+        <a href="https://scholar.google.com/citations?hl=en&user=fUKIcJIAAAAJ&view_op=list_works&sortby=pubdate" class="social-btn scholar" target="_blank">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 10a8 8 0 0 1 7.162 3.44L24 9.5z"/></svg>
+          <span>Google Scholar</span>
+        </a>
+        <a href="https://orcid.org/0000-0001-5228-4664" class="social-btn orcid" target="_blank">
+          <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zM86.3 186.2H70.9V105.2h15.4v81zm-7.7-92.3c-5.4 0-9.7-4.4-9.7-9.7s4.4-9.7 9.7-9.7 9.7 4.4 9.7 9.7-4.3 9.7-9.7 9.7zm108.1 92.3h-15.4v-38.3c0-9.9-3.8-16.7-12.4-16.7-6.6 0-10.5 4.5-12.2 8.8-.6 1.6-.8 3.7-.8 5.9v40.3h-15.4v-81h15.4v13.4c2.5-5.1 9-12.9 19.8-12.9 14.4 0 23 9.4 23 29.6v51z"/></svg>
+          <span>ORCID</span>
+        </a>
+        <a href="https://www.linkedin.com/in/nasir-eisty-492830a9/" class="social-btn linkedin" target="_blank">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-pattern"></div>
+      <div class="hero-photo-wrap">
+        <img src="images/pro-pic3.jpg" alt="Nasir Eisty, Ph.D." class="hero-photo" />
+      </div>
+    </div>
+  </section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#Experience">Experience</a></li>
-							<li><a href="#Work">Work</a></li>
-							<li><a href="#News">News</a></li>
+  <!-- Experience -->
+  <section id="experience" style="background: var(--bg-blue);">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2>Experience</h2>
+        <div class="rule"></div>
+        <a href="experience.html" class="btn btn-primary" style="white-space:nowrap; font-size:13px;" target="_blank">Full History &rarr;</a>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date">Aug 2025 &ndash;<br>Present</div>
+          <div class="tl-content">
+            <div class="tl-org">University of Tennessee, Knoxville</div>
+            <div class="tl-role">Assistant Professor, Min H. Kao EECS</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Aug 2025 &ndash;<br>Present</div>
+          <div class="tl-content">
+            <div class="tl-org">University of Tennessee, Knoxville</div>
+            <div class="tl-role">Director, SAIL &mdash; Software Analytics and Intelligence Lab</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Aug 2025 &ndash;<br>Present</div>
+          <div class="tl-content">
+            <div class="tl-org">IEEE Computing in Science &amp; Engineering</div>
+            <div class="tl-role">Department Editor, Software Engineering &amp; Scientific Computing</div>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-date">Jan 2026 &ndash;<br>Present</div>
+          <div class="tl-content">
+            <div class="tl-org">Oak Ridge National Laboratory</div>
+            <div class="tl-role">Guest Scientist</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-						</ul>
-					</nav>
+  <!-- Research Areas -->
+  <section id="research">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2>Research Areas</h2>
+        <div class="rule"></div>
+        <a href="research.html" class="btn btn-primary" style="white-space:nowrap; font-size:13px;" target="_blank">Research Lab &rarr;</a>
+      </div>
+      <div class="research-grid">
+        <div class="research-card">
+          <div class="research-num">01 &mdash;</div>
+          <div class="research-title">Empirical Software Engineering</div>
+          <div class="research-desc">AI-driven, data-intensive studies of software development practices, developer behavior, and engineering processes in real-world systems to surface actionable insights.</div>
+        </div>
+        <div class="research-card">
+          <div class="research-num">02 &mdash;</div>
+          <div class="research-title">Scientific Software Quality</div>
+          <div class="research-desc">Applying AI-augmented software engineering methods to research and computational science software, ensuring reproducibility, correctness, and long-term sustainability.</div>
+        </div>
+        <div class="research-card">
+          <div class="research-num">03 &mdash;</div>
+          <div class="research-title">AI-Assisted Testing</div>
+          <div class="research-desc">Leveraging large language models and machine learning to automate test generation, fault localization, and quality assurance across diverse software systems.</div>
+        </div>
+        <div class="research-card">
+          <div class="research-num">04 &mdash;</div>
+          <div class="research-title">Peer Code Review</div>
+          <div class="research-desc">Using AI-driven analysis to understand and improve code review effectiveness, comment usefulness, and collaborative decision-making in development teams.</div>
+        </div>
+        <div class="research-card">
+          <div class="research-num">05 &mdash;</div>
+          <div class="research-title">Software Metrics</div>
+          <div class="research-desc">Developing AI-informed quantitative measures for software quality, complexity, maintainability, and developer productivity across open-source and scientific codebases.</div>
+        </div>
+        <div class="research-card">
+          <div class="research-num">06 &mdash;</div>
+          <div class="research-title">Technical Debt</div>
+          <div class="research-desc">Identifying, quantifying, and managing technical debt using AI-driven detection techniques to improve long-term software maintainability and reduce rework costs.</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<!-- Main -->
-					<div id="main">
+  <!-- Work -->
+  <section id="work" style="background: var(--bg-card);">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2>Work</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="work-grid">
+        <a href="teaching.html" class="work-card" target="_blank">
+          <span class="work-icon">&#x1F4DA;</span>
+          <div class="work-label">Teaching</div>
+          <div class="work-desc">Courses taught in software engineering, testing, and related computer science topics.</div>
+          <span class="work-arrow">&nearr;</span>
+        </a>
+        <a href="research.html" class="work-card" target="_blank">
+          <span class="work-icon">&#x1F52C;</span>
+          <div class="work-label">Research</div>
+          <div class="work-desc">Publications, projects, grants, and current lab activities and ongoing investigations.</div>
+          <span class="work-arrow">&nearr;</span>
+        </a>
+        <a href="service.html" class="work-card" target="_blank">
+          <span class="work-icon">&#x1F91D;</span>
+          <div class="work-label">Service</div>
+          <div class="work-desc">Conference organizing, program committees, reviewing, and community leadership roles.</div>
+          <span class="work-arrow">&nearr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Hi there!</h2>
-										</header>
-										<p>I am an Assistant Professor in the Min H. Kao Electrical Engineering and Computer Science Department at the University of Tennessee, Knoxville. My research interests lie in the area of Software Engineering, which includes Empirical Software Engineering, Scientific/Research Software Engineering, Software Quality Assurance using AI in fields such as Software Testing, Peer Code Review, and Software Metrics, and Software Engineering Education. </p>
-										<ul class="actions">
-											<li><a href="Resume.pdf" class="button primary" target="_blank">Resume (PDF)</a></li>
-										</ul>
-										<!--<p style="color:rgb(230, 13, 13)">***Outstanding graduate students interested in research in the broad area of Software Engineering and Machine Learning are welcome to email me your resume and test scores.</p> -->
-									<!--<p style="color:rgb(230, 13, 13)">***I have a couple of undergrad research positions (paid) open. If you are a Boise State CS undergrad student, please feel free to drop me an email. </p> -->
-									<!--<p style="color:rgb(230, 13, 13)">***I will join the Min H. Kao Department of EECS at the University of Tennessee, Knoxville, starting Fall 2025. I have openings for highly motivated Ph.D. (not M.S.) students to join my research lab. If you are a prospective Ph.D. student interested in joining, please email your resume and transcript to neisty@utk.edu.</p> -->
-										<p style="color:rgb(230, 13, 13)">***My lab welcomes fulbright scholars, visiting scholars, postdocs, and researchers from all around the world. Please feel free to email me.</p>
-									</div>
-									<span class="image"><img src="images/pro-pic3.jpg" alt="" /></span>
-								</div>
-							</section>
+  <!-- News -->
+  <section id="news">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2>Latest News</h2>
+        <div class="rule"></div>
+        <a href="news.html" class="btn btn-primary" style="white-space:nowrap; font-size:13px;" target="_blank">All News &rarr;</a>
+      </div>
+      <div class="news-list">
 
-						<!-- Experience Section -->
-						<section id="Experience" class="main special">
-							<header class="major">
-								<h2>Experience</h2>
+        <div class="news-item">
+          <div class="news-date">Jun 2025</div>
+          <div class="news-text">
+            NSF grant on formal methods in scientific software funded with Dr. Elena Sherman &amp; Dr. Grady Wright.
+            <span class="news-tag tag-grant">Grant</span>
+          </div>
+        </div>
 
-							</header>
-							<ul class="statistics">
-								<li class="style6">
-									<br>
-									<strong>UTK</strong> Aug 25 - Present
-								</li>
-								<li class="style1">
-									<br>
-									<strong>BSU</strong> Aug 21 - Jul 25
-								</li>
-								<li class="style2">
-									<br>
-									<strong>Cal Poly</strong> Sep 20 - Jul 21
-								</li>
-								<li class="style3">
-									<br>
-									<strong>UA</strong> Aug 16 - Aug 20
-								</li>
-								<li class="style4">
-									<br>
-									<strong>LANL</strong> Summer 2019
-								</li>
-								<li class="style5">
-									<br>
-									<strong>NCSA</strong> Summer 2017
-								</li>
+        <div class="news-item">
+          <div class="news-date">Apr 2025</div>
+          <div class="news-text">
+            Ph.D. student <strong>Sharif Ahmed</strong> will join University of Central Arkansas CS as a
+            tenure-track Assistant Professor in Fall 2025.
+            <span class="news-tag tag-award">Placement</span>
+          </div>
+        </div>
 
-							</ul>
-							<footer class="major">
-								<ul class="actions special">
-									<li><a href="experience.html" class="button primary" target="_blank">Learn More</a></li>
-								</ul>
-							</footer>
-						</section>
+        <div class="news-item">
+          <div class="news-date">Apr 2025</div>
+          <div class="news-text">
+            Mushfiqur Rahman will intern at <strong>Oak Ridge National Laboratory</strong> this summer.
+            Shane Panter passed his Ph.D. proposal.
+            <span class="news-tag tag-milestone">Milestone</span>
+          </div>
+        </div>
 
-						<!-- Work Section -->
-							<section id="Work" class="main special">
-								<header class="major">
-									<h2>Work</h2>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3><li><a href="teaching.html" class="button primary" target="_blank">Teaching</a></li></h3>
-										
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3><li><a href="research.html" class="button primary" target="_blank">Research</a></li></h3>
-										
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3><li><a href="service.html" class="button primary" target="_blank">Service</a></li></h3>
-										
-									</li>
-								</ul>
-							</section>
+        <div class="news-item">
+          <div class="news-date">Jan 2025</div>
+          <div class="news-text">
+            Paper <span class="highlight">Testing Research Software: An In-Depth Survey of Practices, Methods, and Tools</span>
+            accepted in the EMSE Journal with Upulee Kanewala &amp; Jeffrey Carver.
+            <span class="news-tag tag-paper">Paper</span>
+          </div>
+        </div>
 
-						<!-- News Section -->
-							<section id="News" class="main special">
-								<header class="major">
-									<h2>Latest News</h2>
-								</header>
-								<p><span>&bull;</span> 6/15/2024: Our grant proposal together with Dr. Elena Sherman and Dr. Grady Wright on formal methods in scientific software was funded. Thanks to NSF! </p>
-								<p><span>&bull;</span> 4/29/2024: My first Ph.D. student, Sharif Ahmed, will join the University of Central Arkansas Computer Science Department as a tenure-track Assistant Professor starting Fall 2025. Congratulations to Sharif!</p>
-								<p><span>&bull;</span> 4/22/2024: Mushfiqur Rahman is set to do a summer internship at Oak Ridge National Lab (ORNL) this summer. Congratulations to Mushfiq! 
-								<p><span>&bull;</span> 4/22/2024: Shane Panter passed his Ph.D. proposal. Congratulations to Shane! 
-								<p><span>&bull;</span> 1/28/2025: Our paper <i>Testing Research Software: An In-Depth Survey of Practices, Methods, and Tools</i> has been accepted for publication in the Empirical Software Engineering (EMSE) Journal . Thanks to my co-authors Upulee Kenewala (UNF) and Jeffrey Carver (UA)!</p>
-								<p><span>&bull;</span> 1/20/2025: Our paper <i>Hold On! Is My Feedback Useful? Evaluating the Usefulness of Code Review Comments</i> has been accepted for publication in the Empirical Software Engineering (EMSE) Journal . Congratulations to Sharif!</p>
-								<p><span>&bull;</span> 11/05/2024: Sharif Ahmed and Shariful Alam both passed their Ph.D. proposals. Eric Melin Passed his Ph.D. Comprehensive exam. Congratulations to all of them!</p>
-								<p><span>&bull;</span> 8/16/2024: Sharif Ahmed completed a summer internship at Oak Ridge National Lab (ORNL)</p>
-								<p><span>&bull;</span> 9/15/2024: Our poster <i>Software Testing Practices for Reproducible Open Science</i> has been accepted to AGU 2024 Conference at Washington D.C. Thanks to Alex Koufos (Stanford University) and Miranda Mundt (Sandia National Lab)!</p>
-								
-								<p><span>&bull;</span> 7/26/2024: Our poster <i>Better Architecture, Better Software, Better Research</i> has been accepted to US-RSE 2024 Conference at Albuquerque, New Mexico. Thanks to my 12 co-authors!</p>
-								<p><span>&bull;</span> 7/22/2024: Our paper <i>Rusty Linux: Advances in Rust for Linux Kernel Development</i> has been accepted to ESEM 2024 Conference at Barcelona, Spain. Congratulations to Shane!</p>
-								<p><span>&bull;</span> 3/14/2024: Attended Dagstuhl Seminar <i>Research Software Engineering: Bridging Knowledge Gaps
-								</i> at Germany</p>
-								<p><span>&bull;</span> 1/12/2024: Our paper <i>Understanding Emojis :) in Useful Code Review Comments</i> has been accepted to NLBSE 2024 Workshop (Co-Located to ICSE 2024). Congratulations to Sharif!</p>
-								<p><span>&bull;</span> 8/19/2023: Our BoF workshop titled <i>Scientific Software and the People Who Make it Happen: Building Communities of Practice</i> has been accepted to be held at the SC 2023 Conference</p>
-								<p><span>&bull;</span> 8/01/2023: A talk titled <i>Peer Code Review in Research Software: Enhancing Quality and Collaboration</i> has been accepted to be presented at the US-RSE 2023 Conference</p>
-								<p><span>&bull;</span> 7/12/2023: Our paper <i>Exploring the Advances in Identifying Useful Code Review Comments</i> has been accepted to ESEM 2023 Conference. Congratulations to Sharif!</p>
-								<p><span>&bull;</span> 3/30/2023: Five papers were accepted at the SERA 2023 conference! Congratulations to all my co-authors!</p>
-								<p><span>&bull;</span> 12/7/2022: Grant ($250K) proposal was funded by the <a href="https://sloan.org/" target="_blank"><i>Alphred P. Sloan Foundation</i></a></p>
-								<p><span>&bull;</span> 11/16/2022: Organized BOF titled <a href="https://sc22.supercomputing.org/presentation/?id=bof180&sess=sess368" target="_blank"><i>Software Engineering and Reuse in Modeling, Simulation, and Data Analysis for Science and Engineering</i></a> at the Supuer Computing Conference (SC22).</p>
-								<p><span>&bull;</span> 9/15/2022: Presented a talk on Testing Research Software at <a href="https://us-rse.org/virtual-workshop-2022/agenda/" target="_blank"><i>US-RSE VIrtual Workshop 2022</i></a></p>
-								<p><span>&bull;</span> 5/26/2022: Journal paper <a href="" target="_blank"><i>Testing Research Software: A Survey</i></a> was accepted to the Empirical Software Engineering Journal (EMSE).</p>
-								<p><span>&bull;</span> 4/22/2022: Attended US-RSE Association community building workshop, April 26-27, 2022 in Princeton, NJ</p>
-								<p><span>&bull;</span> 4/1/2022: Our paper <i>Automatic Transformation of Natural to Unified Modeling Language: A Systematic Review</i> has been accepted to SERA 2022 Conference. Congratulations to Sharif and Arif!</p>
-								<p><span>&bull;</span> 2/9/2022: Our paper <i>Software Engineering Approaches for TinyML based IoT Embedded Vision: A Systematic Literature Review</i> has been accepted to @serp4iot colocated with @ICSE 2022 . Congratulations to Shashank!</p>
-								<p><span>&bull;</span> 12/21/2021: BSSw blog post <a href="https://bssw.io/blog_posts/reflecting-on-our-community-the-sc21-bof-on-software-engineering-and-reuse-in-modeling-simulation-and-data-analytics-for-science-and-engineering" target="_blank"><i>Reflecting on Our Community: The SC21 BoF on Software Engineering and Reuse in Modeling, Simulation, and Data Analytics for Science and Engineering</i></a> was published.</p>
-								<p><span>&bull;</span> 12/3/2021: Position paper <a href="https://custom.cvent.com/DCBD4ADAAD004096B1E4AD96F3C8049E/files/event/1b7d7c3ae9b4409dae2b284779cfe72f/fa4b8356b7194d75a63444e4bb27bb34.pdf" target="_blank"><i>Scientific Software Development Laboratory: A Proposal</i></a> was accepted to the DOE ASCR Workshop on the Science of Scientific-Software Development and Use 2021</p>
-								<p><span>&bull;</span> 9/20/2021: BOF titled <a href="https://sc21.supercomputing.org/presentation/?id=bof157&sess=sess399" target="_blank"><i>Software Engineering and Reuse in Modeling, Simulation, and Data Analysis for Science and Engineering</i></a> was accepted to the Supuer Computing Conference (SC21).</p>
-								<p><span>&bull;</span> 9/2/2021: Journal paper <a href="https://link.springer.com/article/10.1007/s10664-021-10053-x" target="_blank"><i>Developers Perceptions of Peer Code Review in Research Software</i></a> was accepted to the Empirical Software Engineering Journal (EMSE).</p>
-								<p><span>&bull;</span> 7/25/2021: Started working as an Assistant Professor in the CS department of Boise State University.</p>
-								
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="news.html" class="button primary" target="_blank">More News</a></li>
+        <div class="news-item">
+          <div class="news-date">Jan 2025</div>
+          <div class="news-text">
+            Paper <span class="highlight">Hold On! Is My Feedback Useful? Evaluating the Usefulness of Code Review Comments</span>
+            accepted in the EMSE Journal. Congratulations to Sharif!
+            <span class="news-tag tag-paper">Paper</span>
+          </div>
+        </div>
 
+        <div class="news-item">
+          <div class="news-date">Nov 2024</div>
+          <div class="news-text">
+            Sharif Ahmed &amp; Shariful Alam passed their Ph.D. proposals. Eric Melin passed his comprehensive exam.
+            Congratulations to all!
+            <span class="news-tag tag-milestone">Milestone</span>
+          </div>
+        </div>
 
-									</ul>
-								</footer>
-							</section>
+        <div class="news-item">
+          <div class="news-date">Sep 2024</div>
+          <div class="news-text">
+            Poster <span class="highlight">Software Testing Practices for Reproducible Open Science</span>
+            accepted to <strong>AGU 2024</strong> in Washington D.C.
+          </div>
+        </div>
 
+        <div class="news-item">
+          <div class="news-date">Jul 2024</div>
+          <div class="news-text">
+            Paper <span class="highlight">Rusty Linux: Advances in Rust for Linux Kernel Development</span>
+            accepted to <strong>ESEM 2024</strong> in Barcelona. Congratulations to Shane!
+            <span class="news-tag tag-paper">Paper</span>
+          </div>
+        </div>
 
+        <div class="news-item">
+          <div class="news-date">Mar 2024</div>
+          <div class="news-text">
+            Attended Dagstuhl Seminar <span class="highlight">Research Software Engineering: Bridging Knowledge Gaps</span> in Germany.
+          </div>
+        </div>
 
-					</div>
+        <div class="news-item">
+          <div class="news-date">Dec 2022</div>
+          <div class="news-text">
+            Grant ($250K) funded by the <a href="https://sloan.org/" target="_blank">Alfred P. Sloan Foundation</a>.
+            <span class="news-tag tag-grant">Grant</span>
+          </div>
+        </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Announcement</h2>
-							<p>UTK EECS student? Looking for a potential Research/Thesis/Project advisor? Feel free to drop me an email. Happy to talk! </p>
-							<ul class="actions">
-								<li><a href="announcement.html" class="button" target="_blank">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Contact</h2>
-							<dl class="alt">
-								<dt>Office</dt>
-								<dd>353 Min H. Kao Building <br> 1520 Middle Drive, Knoxville, TN 37996</dd>
-								<dt>Phone</dt>
-								<dd>(865) 974-0994</dd>
-								<dt>Email</dt>
-								<dd><a href="mailto:nasireisty@boisestate.edu">neisty@utk.edu</a></dd>
-								<dt>Calendly</dt>
-								<dd><a href="https://calendly.com/nasireisty" target="_blank">https://calendly.com/nasireisty</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://twitter.com/nasireisty" class="icon brands fa-twitter alt" target="_blank"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Nasir Eisty, Last updated on September 04, 2025</p>
-					</footer>
+        <div class="news-item">
+          <div class="news-date">Sep 2021</div>
+          <div class="news-text">
+            Paper <a href="https://link.springer.com/article/10.1007/s10664-021-10053-x" target="_blank">
+              <span class="highlight">Developers&rsquo; Perceptions of Peer Code Review in Research Software</span></a>
+            accepted to <strong>EMSE</strong>.
+            <span class="news-tag tag-paper">Paper</span>
+          </div>
+        </div>
 
-			</div>
+      </div>
+    </div>
+  </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  <!-- Contact -->
+  <section id="contact" style="background: var(--bg-card);">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2>Contact</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="contact-grid">
+        <dl class="contact-info">
+          <dt>Office</dt>
+          <dd>353 Min H. Kao Building<br>1520 Middle Drive<br>Knoxville, TN 37996</dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:neisty@utk.edu">neisty@utk.edu</a></dd>
+          <dt>Phone</dt>
+          <dd>(865) 974-0994</dd>
+          <dt>Schedule</dt>
+          <dd><a href="https://calendly.com/nasireisty" target="_blank">calendly.com/nasireisty</a></dd>
+          <dt>LinkedIn</dt>
+          <dd><a href="https://www.linkedin.com/in/nasir-eisty-492830a9/" target="_blank">LinkedIn Profile</a></dd>
+        </dl>
+        <div class="cta-box">
+          <h3>Prospective Students &amp; Collaborators</h3>
+          <p>The lab actively welcomes UTK EECS students seeking research advisors, fulbright scholars,
+            visiting researchers, postdocs, and international collaborators. Don&rsquo;t hesitate to reach
+            out &mdash; happy to chat about opportunities.</p>
+          <!--  <a href="announcement.html" class="btn-white" target="_blank">Learn More &rarr;</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
 
-	</body>
+  <!-- Footer -->
+  <footer>
+    <div>&copy; Nasir Eisty, Ph.D. &middot; Last updated April 2026</div>
+    <div>University of Tennessee, Knoxville</div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => document.querySelector('.nav-links').classList.remove('open'));
+    });
+  </script>
+
+</body>
 </html>
